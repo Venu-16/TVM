@@ -103,7 +103,7 @@ export function DomainsSection({ onSelectDomain }: DomainsSectionProps) {
                 </div>
 
                 {/* Card CTA */}
-                <div className="mt-6 pt-3">
+                {/* <div className="mt-6 pt-3">
                   <button
                     type="button"
                     onClick={() => handleExplore(domain.title)}
@@ -112,7 +112,7 @@ export function DomainsSection({ onSelectDomain }: DomainsSectionProps) {
                     <span>Explore Projects</span>
                     <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                   </button>
-                </div>
+                </div> */}
               </div>
             );
           })}
