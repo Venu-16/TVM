@@ -43,10 +43,10 @@ export default function HomePage() {
       <DomainsSection onSelectDomain={handleDomainSelect} />
 
       {/* 4. Featured Projects Ideas with Filtering & Modal */}
-      <ProjectsSection
+      {/* <ProjectsSection
         selectedDomain={selectedDomain}
         onSelectForContact={handleSelectProjectForContact}
-      />
+      /> */}
 
       {/* 5. What We Provide (17 deliverables in 3 pillars) */}
       <ServicesSection />
