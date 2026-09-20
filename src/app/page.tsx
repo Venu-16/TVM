@@ -64,7 +64,7 @@ export default function HomePage() {
       <PricingSection />
 
       {/* 10. FAQ Accordion */}
-      <FAQSection />
+      {/* <FAQSection /> */}
 
       {/* 11. Lead Generation Banner */}
       <LeadBanner />
