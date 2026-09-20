@@ -64,9 +64,9 @@ export function Navbar() {
             <div className="flex flex-col">
               <span className="text-base sm:text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
                 {siteConfig.name}
-                <span className="text-[10px] font-mono font-semibold px-1.5 py-0.2 rounded bg-brand-500/10 text-brand-400 border border-brand-500/20">
+                {/* <span className="text-[10px] font-mono font-semibold px-1.5 py-0.2 rounded bg-brand-500/10 text-brand-400 border border-brand-500/20">
                   STUDIO
-                </span>
+                </span> */}
               </span>
               <span className="text-[11px] text-gray-400 font-medium -mt-0.5 hidden xs:block">
                 Final Year Project Development &amp; Support
